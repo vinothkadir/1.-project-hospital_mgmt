@@ -20,3 +20,14 @@ Achievements:
 
 Streamlined patient admission process, enhancing hospital efficiency and organization.
 Improved doctor-patient coordination through automated appointment scheduling, leading to enhanced patient care.
+
+Time Complexity:
+
+O(1) for admit_patient and assign_doctor functions.
+O(n) for list_patients function.
+O(m) for list_doctors function.
+
+Space Complexity:
+
+O(n + m) for storing patients and doctors.
+Additional space for patient medical histories (depends on the number of histories).
