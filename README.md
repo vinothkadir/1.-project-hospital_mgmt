@@ -30,4 +30,3 @@ O(m) for list_doctors function.
 Space Complexity:
 
 O(n + m) for storing patients and doctors.
-Additional space for patient medical histories (depends on the number of histories).
