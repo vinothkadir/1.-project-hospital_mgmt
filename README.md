@@ -23,10 +23,11 @@ Improved doctor-patient coordination through automated appointment scheduling, l
 
 Time Complexity:
 
-O(1) for admit_patient and assign_doctor functions.
-O(n) for list_patients function.
-O(m) for list_doctors function.
+Admitting a Patient: O(1)
+Assigning a Doctor: O(1)
+Listing Patients: O(n), where n is the number of patients
+Listing Doctors: O(m), where m is the number of doctors
 
 Space Complexity:
 
-O(n + m) for storing patients and doctors.
+Storing Patients and Doctors: O(n + m), where n is the number of patients and m is the number of doctors
